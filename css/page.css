@@ -1,0 +1,78 @@
+header {
+    background-color: #666;
+    padding: 30px;
+    font-size: 30px;
+    color: white;
+}
+
+nav h1{
+    display: none;
+    }
+
+nav {
+    display: block;
+    width: 98,5%;
+    background: #ccc;
+    padding: 10px;
+}
+
+nav a{
+    color: rgb(23, 25, 26);
+    text-decoration:  none;
+}
+
+nav a:hover{
+    color: #ffffff;
+} 
+
+nav li{
+    display: inline-block;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s
+}
+
+nav ul{
+    list-style:  none;
+    text-transform: uppercase;
+
+    /*left:100px;
+    /*top:0px;*/
+}
+
+nav li:hover{
+    background-color:#666 
+    
+}
+.nomepagina{
+    font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+}
+body {
+    
+    
+}
+
+footer {
+    left: 0;
+    position: fixed;
+    background-color: #5F9EA0;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    bottom: 0;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    text-shadow: 1px 1px 1px blue;
+}
+
+h6{
+    
+}
