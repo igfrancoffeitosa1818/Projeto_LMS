@@ -1,5 +1,5 @@
 header {
-    background-color: #B0E0E6;
+    background-color: rgb(11, 30, 70);
     padding: 30px;
     font-size: 30px;
     color: white;
@@ -12,7 +12,7 @@ nav h1{
 nav {
     display: block;
     width: 98,5%;
-    background: #191970;
+    background: #020202;
     padding: 10px;
 }
 
@@ -41,7 +41,7 @@ nav ul{
 }
 
 nav li:hover{
-    background-color:#666 
+    background-color:#ac9d1cfd 
     
 }
 .nomepagina{
@@ -58,7 +58,7 @@ body {
 footer {
     left: 0;
     position: fixed;
-    background-color: #5F9EA0;
+    background-color: rgb(68, 8, 65);
     padding: 10px;
     text-align: center;
     color: white;
@@ -69,10 +69,17 @@ footer {
 h2{
     text-align: center;
     text-transform: uppercase;
-    color: black;
-    text-shadow: 1px 1px 1px blue;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px rgb(110, 15, 139);
 }
 
 h6{
     
+}
+
+font{
+    color:white;
+    
+   
+
 }
