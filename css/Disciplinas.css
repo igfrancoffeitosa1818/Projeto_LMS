@@ -1,40 +1,18 @@
-<!DOctype HTML>
-<HTML lang ="pt-br">
-    <meta charset= "utf-8">
-<head>
-    <title> Noticias </title>
-<link rel="stylesheet" type="text/css" href="./css/Noticias.css">
-<link rel="stylesheet" type="text/css" href="./css/page.css">
-</head>
-<body>
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
 
-    <header>
-            
-        <img align ="left" width="200px" height="150px" src='./img/Logo.png'>
-          
-            <h1 class = "nomepagina">Focus</h1>
-   </header>
-<nav>
-<h1>Menu Principal</h1>
-<ul>
-    <li><a href="./HomePage.html"><font>Pagina Inicial</font></a> </li>
-    <li><a href="./ListaDeCursos.html"><font>Lista de Cursos</font></a> </li>
-    <li><a href="./Disciplinas.html"><font>Disciplinas</font></a> </li>
-    <li><a href="./Noticias.html"><font>Noticias</font></a> </li>    
-</ul>
-</nav>
-<article>
-<h2 class="titulo" align = "center">Noticias</h2>
-
-<h3 align = "center"></h3>
+th, td {
+    text-align: left;
+    padding: 8px;
+}
 
 
+tr:nth-child(even){background-color: #f2f2f2}
 
-</section> 
-</article>
-<footer>
- Todos Os Direitos Reservados   
-</footer>
-
-</body>    
-</HTML>
+th {
+    background-color: #ac9d1cfd;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
