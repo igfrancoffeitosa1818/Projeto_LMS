@@ -27,11 +27,9 @@ p{
 
 /* Middle column */
 .column.middle {
-    width: 40%;
-    background-color: #ac9d1cfd;
-    border-top: 6px solid #ac9d1cfd;
-   
-
+    width: 35%;
+    background-color: #ddffdd;
+    border-top: 6px solid #4CAF50;
 }
 
 /* Clear floats after the columns */
