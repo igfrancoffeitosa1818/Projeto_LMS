@@ -1,40 +1,103 @@
-<!DOctype HTML>
-<HTML lang ="pt-br">
-    <meta charset= "utf-8">
-<head>
-    <title> Noticias </title>
-<link rel="stylesheet" type="text/css" href="./css/Noticias.css">
-<link rel="stylesheet" type="text/css" href="./css/page.css">
-</head>
-<body>
 
-    <header>
-            
-        <img align ="left" width="200px" height="150px" src='./img/Logo.png'>
-          
-            <h1 class = "nomepagina">Focus</h1>
-   </header>
-<nav>
-<h1>Menu Principal</h1>
-<ul>
-    <li><a href="./HomePage.html"><font>Pagina Inicial</font></a> </li>
-    <li><a href="./ListaDeCursos.html"><font>Lista de Cursos</font></a> </li>
-    <li><a href="./Disciplinas.html"><font>Disciplinas</font></a> </li>
-    <li><a href="./Noticias.html"><font>Noticias</font></a> </li>    
-</ul>
-</nav>
-<article>
-<h2 class="titulo" align = "center">Noticias</h2>
+box{
+	margin-top: 15px;
+	
+}
 
-<h3 align = "center"></h3>
+.box-top{
+	color: black; /* muda a cor da letra do titulo da noticia */
+	text-shadow: 0px 1px solid #000;
+	background-color: grey; /* Muda a cor da barrinha menu option*/
+	padding: 5px;
+	padding-left: 15px;
+	font-weight: 300;
+}
+/* Faz Alteração só nessa acima e nessa abaixo aqui */
+
+.box-pane{
+	
+	padding: 15px;
+	background-color: #D3D3D3; /* muda a cor de fundo da box da noticia,  coloca uma cor clara ai boi */
+	color: black;  /* cor da letra dentro da box */
+	display: inline-block;
+}
+
+.box-image img{
+	max-width: 100%;
+	padding: 5px;
+	margin-right: 10px;
+	display: block;
+	float: left;
+}
 
 
+@media only screen and (max-width:730px){
+	.sidebar{
+		width: 100%;
+		height: ;
+		display: none;
+		position: relative;
+	}
 
-</section> 
-</article>
-<footer>
- Todos Os Direitos Reservados   
-</footer>
+	.content{
+		margin-left: 0px;
+		margin-top: 0px;	
+	}
+	.content p{
+		padding: 5px;
+		font-size: 0.8em;	
+	}
+	.content h1{
+	font-size: 1.3em; 
+	}
+	content h3{
+	padding: 5px; 
+	}
 
-</body>    
-</HTML>
+	container{
+		margin:0px auto;
+	}
+
+	.powered{
+		display: none;
+	}
+
+	.box-image{
+	max-width:inherit;
+	height: auto;
+	object-fit: contain;
+	padding: 5px;
+	display: inline-block;
+	
+}
+
+
+	
+}
+section{
+padding-top: 47px;
+
+}
+
+@media only screen and (min-width:730px){
+	a.mobile{
+		display: none;
+		
+	}
+	a.mobilein{
+		display: none;
+		
+	}
+	a.menuclose{
+		display: none;
+		
+	}
+	a.menuclose{
+		display: none;
+		
+	}
+	.sidebar{
+		height: 100%;
+
+	}
+	}
