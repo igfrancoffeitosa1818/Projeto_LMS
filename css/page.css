@@ -1,5 +1,5 @@
 header {
-    background-color: rgb(11, 30, 70);
+    background-image: url("../img/fundo2.png");
     padding: 30px;
     font-size: 30px;
     color: white;
@@ -12,12 +12,12 @@ nav h1{
 nav {
     display: block;
     width: 98,5%;
-    background: #020202;
+    background-image: url("../img/fundo3.png");
     padding: 10px;
 }
 
 nav a{
-    color: rgb(23, 25, 26);
+    color: rgba(0, 0, 0, 0.932);
     text-decoration:  none;
 }
 
@@ -51,6 +51,8 @@ nav li:hover{
 
 }
 body {
+    background-image: url("../img/fundo2.png");
+   
     
     
 }
@@ -58,7 +60,7 @@ body {
 footer {
     left: 0;
     position: fixed;
-    background-color: rgb(68, 8, 65);
+    background-image: url("../img/fundo.png");
     padding: 10px;
     text-align: center;
     color: white;
@@ -69,17 +71,23 @@ footer {
 h2{
     text-align: center;
     text-transform: uppercase;
-    color: rgb(0, 0, 0);
-    text-shadow: 1px 1px 1px rgb(110, 15, 139);
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(0, 89, 255);
 }
 
-h6{
+h6 {
     
 }
 
 font{
     color:white;
     
-   
+}
+font.color.style{
+    color:black;
+    font-style: italic;
 
+}
+font.style{
+    font-style: italic;
 }
