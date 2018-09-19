@@ -1,5 +1,6 @@
 background-color:DodgerBlue
 
+
 p{
     text-indent: 50px;
     text-align: justify;
@@ -9,6 +10,9 @@ p{
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    
 }
 
 .column {
@@ -20,17 +24,20 @@ p{
 /* Left and right column */
 .column.side {
     width: 20%;
-    padding: 40px;
-    background-color: #766daa;
+    
+    background-image: url("../img/image1.1.png");
     border-top: 6px solid #ac9d1cfd;
 }
 
 /* Middle column */
-.column.middle {
+.column.middle {    
     width: 35%;
-    background-color: #ddffdd;
-    border-top: 6px solid #4CAF50;
+    
+    background-image: url("../img/fundo4.png");
+    border-top: 6px solid #ac9d1cfd;
+
 }
+
 
 /* Clear floats after the columns */
 .row:after {
