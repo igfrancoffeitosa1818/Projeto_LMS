@@ -6,13 +6,16 @@ table {
 th, td {
     text-align: left;
     padding: 8px;
+    
 }
 
-
-tr:nth-child(even){background-color: #f2f2f2}
-
 th {
-    background-color: #ac9d1cfd;
-    color: rgb(0, 0, 0);
+    background-image: url("../img/fundo4.png");
+    color: rgb(255, 255, 255);
     text-align: center;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+
 }
