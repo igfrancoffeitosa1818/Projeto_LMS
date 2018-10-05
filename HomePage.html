@@ -5,8 +5,12 @@
     <title> Home Page </title>
 <link rel="stylesheet" type="text/css" href="./css/HomePage.css">
 <link rel="stylesheet" type="text/css" href="./css/page.css">
+<link rel="stylesheet" type="text/css" href="./css/login.css">
+<script type="text/javascript" src="./javaScripts/login.js"></script>
+
 </head>
-<body>
+<body>  
+</div>
 
     <header>
             
@@ -20,9 +24,40 @@
     <li><a href="./HomePage.html"><font>Pagina Inicial</font></a> </li>
     <li><a href="./ListaDeCursos.html"><font>Lista de Cursos</font></a> </li>
     <li><a href="./Disciplinas.html"><font>Disciplinas</font></a> </li>
-    <li><a href="./Noticias.html"><font>Noticias</font></a> </li>    
+    <li><a href="./Noticias.html"><font>Noticias</font></a> </li>  
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><font>LOGIN</font></button>     
+      
 </ul>
 </nav>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
 
 <div class="row">
         <div class="column side">
