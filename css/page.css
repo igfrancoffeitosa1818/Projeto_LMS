@@ -9,12 +9,27 @@ nav h1{
     display: none;
     }
 
-nav {
+nav  {
     display: block;
     width: 98,5%;
     background-image: url("../img/fundo3.png");
     padding: 10px;
 }
+
+nav button{
+    
+    display: block;
+    width: 98,5%;
+    background-color: #ac9d1cfd ;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute; 
+	right: 150px; 
+	top: 260px;
+
+}
+
+
 
 nav a{
     color: rgba(0, 0, 0, 0.932);
@@ -52,9 +67,6 @@ nav li:hover{
 }
 body {
     background-image: url("../img/fundo2.png");
-   
-    
-    
 }
 
 footer {
@@ -91,3 +103,7 @@ font.color.style{
 font.style{
     font-style: italic;
 }
+
+
+/* formatação do login
+*/
