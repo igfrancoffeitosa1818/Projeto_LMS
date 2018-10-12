@@ -1,0 +1,125 @@
+
+
+box{
+	margin-top: 15px;
+	
+}
+
+.box-top{
+	color: black; /* muda a cor da letra do titulo da noticia */
+	text-shadow: 0px 1px solid #000;
+	background-image: url("../img/fundo.png");
+	padding: 5px;
+	padding-left: 15px;
+	font-weight: 300;
+}
+/* Faz Alteração só nessa acima e nessa abaixo aqui */
+
+div h3{ 
+   
+	text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(3, 6, 8);
+}
+
+div h4{
+
+	font-family: Arial, Helvetica, sans-serif;
+    text-transform: inherit; 
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px rgb(13, 68, 139);
+
+}
+
+p{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+	
+}
+
+.box-pane{
+	
+	padding: 15px;
+	background-color: #D3D3D3; /* muda a cor de fundo da box da noticia,  coloca uma cor clara ai boi */
+	color: black;  /* cor da letra dentro da box */
+	display: inline-block;
+}
+
+.box-image img{
+	max-width: 100%;
+	padding: 5px;
+	margin-right: 10px;
+	display: block;
+	float: left;
+}
+
+
+@media only screen and (max-width:730px){
+	.sidebar{
+		width: 100%;
+		display: none;
+		position: relative;
+	}
+
+	.content{
+		margin-left: 0px;
+		margin-top: 0px;	
+	}
+	.content p{
+		padding: 5px;
+		font-size: 0.8em;	
+	}
+	.content h1{
+	font-size: 1.3em; 
+	}
+	content h3{
+	padding: 5px; 
+	}
+
+	container{
+		margin:0px auto;
+	}
+
+	.powered{
+		display: none;
+	}
+
+	.box-image{
+	max-width:inherit;
+	height: auto;
+	object-fit: contain;
+	padding: 5px;
+	display: inline-block;
+	
+}
+
+
+	
+}
+section{
+padding-top: 47px;
+
+}
+
+@media only screen and (min-width:730px){
+	a.mobile{
+		display: none;
+		
+	}
+	a.mobilein{
+		display: none;
+		
+	}
+	a.menuclose{
+		display: none;
+		
+	}
+	a.menuclose{
+		display: none;
+		
+	}
+	.sidebar{
+		height: 100%;
+
+	}
+	}
